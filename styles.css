@@ -1,0 +1,53 @@
+body {
+    color:rgb(161, 211, 110, 1);
+    background:midnightblue;
+    margin: 0px;
+    font-family: "Matemasie", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(161, 211, 110, 1);
+    padding: 25px;
+    font-size: 32px;
+    color: rgb(161, 211, 110, 1);
+   
+}
+
+section {
+    background: rgb(78, 98, 191, 1 );
+    padding-bottom: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 17;
+}
+
+.chamada-opnião {
+  margin-right: 0,1%;
+}
+
+ .Vídeos-Imagens {
+     display: flex;
+     overflow-x: auto;
+     gap: 25px;
+ }
+  
+ .Vídeos-Imagens img{
+
+opacity: 0.8;
+height: 200;
+ }
+
+.Vídeos-Imagens img:hover{
+
+opacity: 5.0;
+border: 1 solid purple;
+
+}
+
+.Vídeos-Imagens h2{
+
+color: purple;
+
+
+}
